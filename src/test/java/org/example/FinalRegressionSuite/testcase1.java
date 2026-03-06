@@ -264,5 +264,7 @@ public class testcase1 {
             logResult("submitRegistration", "FAILED - " + e.getMessage());
         }
     }
+}
+
 
 }

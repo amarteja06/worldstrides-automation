@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-03-10T08:11:48.652935100Z</date>
+  <millis>1741594308652</millis>
+  <nanos>935100</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Browser launched successfully.</message>
+</record>
+<record>
+  <date>2025-03-10T08:11:48.671884400Z</date>
+  <millis>1741594308671</millis>
+  <nanos>884400</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>testWorldStridesLogin</method>
+  <thread>1</thread>
+  <message>Navigating to World Strides Login page...</message>
+</record>
+<record>
+  <date>2025-03-10T08:11:55.030791500Z</date>
+  <millis>1741594315030</millis>
+  <nanos>791500</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>World Strides Logo is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:12:13.849462100Z</date>
+  <millis>1741594333849</millis>
+  <nanos>462100</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Student functionality is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:12:13.943213700Z</date>
+  <millis>1741594333943</millis>
+  <nanos>213700</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Grade is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:12:16.512100800Z</date>
+  <millis>1741594336512</millis>
+  <nanos>100800</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Gender selection is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:12:18.900316Z</date>
+  <millis>1741594338900</millis>
+  <nanos>316000</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>filling</method>
+  <thread>1</thread>
+  <message>Selected City = New York</message>
+</record>
+<record>
+  <date>2025-03-10T08:12:21.708106Z</date>
+  <millis>1741594341708</millis>
+  <nanos>106000</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>SEVERE</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>filling</method>
+  <thread>1</thread>
+  <message>Error Message: It looks like your username already exists. Please enter your existing password or click NOT MY ACCOUNT button and use a different username to continue.</message>
+</record>
+<record>
+  <date>2025-03-10T08:12:21.770377400Z</date>
+  <millis>1741594341770</millis>
+  <nanos>377400</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Student functionality is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:12:21.829219200Z</date>
+  <millis>1741594341829</millis>
+  <nanos>219200</nanos>
+  <sequence>9</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Grade is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:12:22.716364800Z</date>
+  <millis>1741594342716</millis>
+  <nanos>364800</nanos>
+  <sequence>10</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Gender selection is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:12:24.256428400Z</date>
+  <millis>1741594344256</millis>
+  <nanos>428400</nanos>
+  <sequence>11</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>filling</method>
+  <thread>1</thread>
+  <message>Selected City = New York</message>
+</record>
+<record>
+  <date>2025-03-10T08:12:26.269564600Z</date>
+  <millis>1741594346269</millis>
+  <nanos>564600</nanos>
+  <sequence>12</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Browser closed successfully.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-03-10T08:15:43.760760600Z</date>
+  <millis>1741594543760</millis>
+  <nanos>760600</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Browser launched successfully.</message>
+</record>
+<record>
+  <date>2025-03-10T08:15:43.780297200Z</date>
+  <millis>1741594543780</millis>
+  <nanos>297200</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>testWorldStridesLogin</method>
+  <thread>1</thread>
+  <message>Navigating to World Strides Login page...</message>
+</record>
+<record>
+  <date>2025-03-10T08:15:50.059773700Z</date>
+  <millis>1741594550059</millis>
+  <nanos>773700</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>World Strides Logo is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:16:05.422280600Z</date>
+  <millis>1741594565422</millis>
+  <nanos>280600</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Student functionality is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:16:05.750521800Z</date>
+  <millis>1741594565750</millis>
+  <nanos>521800</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Student functionality is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:16:07.401076200Z</date>
+  <millis>1741594567401</millis>
+  <nanos>76200</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Browser closed successfully.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-03-10T08:24:23.334628800Z</date>
+  <millis>1741595063334</millis>
+  <nanos>628800</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Browser launched successfully.</message>
+</record>
+<record>
+  <date>2025-03-10T08:24:23.359682600Z</date>
+  <millis>1741595063359</millis>
+  <nanos>682600</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>testWorldStridesLogin</method>
+  <thread>1</thread>
+  <message>Navigating to World Strides Login page...</message>
+</record>
+<record>
+  <date>2025-03-10T08:24:31.295429500Z</date>
+  <millis>1741595071295</millis>
+  <nanos>429500</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>World Strides Logo is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:24:50.158180400Z</date>
+  <millis>1741595090158</millis>
+  <nanos>180400</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Student functionality is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:24:50.267588100Z</date>
+  <millis>1741595090267</millis>
+  <nanos>588100</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Grade is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:24:52.504151Z</date>
+  <millis>1741595092504</millis>
+  <nanos>151000</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Gender selection is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:24:54.853164Z</date>
+  <millis>1741595094853</millis>
+  <nanos>164000</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>filling</method>
+  <thread>1</thread>
+  <message>Selected City = New York</message>
+</record>
+<record>
+  <date>2025-03-10T08:24:58.116439Z</date>
+  <millis>1741595098116</millis>
+  <nanos>439000</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>SEVERE</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>filling</method>
+  <thread>1</thread>
+  <message>Error Message: It looks like your username already exists. Please enter your existing password or click NOT MY ACCOUNT button and use a different username to continue.</message>
+</record>
+<record>
+  <date>2025-03-10T08:24:58.187788600Z</date>
+  <millis>1741595098187</millis>
+  <nanos>788600</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Student functionality is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:24:58.281540500Z</date>
+  <millis>1741595098281</millis>
+  <nanos>540500</nanos>
+  <sequence>9</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Grade is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:24:59.386007900Z</date>
+  <millis>1741595099386</millis>
+  <nanos>7900</nanos>
+  <sequence>10</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Gender selection is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:25:01.500417200Z</date>
+  <millis>1741595101500</millis>
+  <nanos>417200</nanos>
+  <sequence>11</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>filling</method>
+  <thread>1</thread>
+  <message>Selected City = New York</message>
+</record>
+<record>
+  <date>2025-03-10T08:25:03.483728700Z</date>
+  <millis>1741595103483</millis>
+  <nanos>728700</nanos>
+  <sequence>12</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Browser closed successfully.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-03-10T08:25:29.101473300Z</date>
+  <millis>1741595129101</millis>
+  <nanos>473300</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Browser launched successfully.</message>
+</record>
+<record>
+  <date>2025-03-10T08:25:29.115435800Z</date>
+  <millis>1741595129115</millis>
+  <nanos>435800</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>testWorldStridesLogin</method>
+  <thread>1</thread>
+  <message>Navigating to World Strides Login page...</message>
+</record>
+<record>
+  <date>2025-03-10T08:25:36.112979700Z</date>
+  <millis>1741595136112</millis>
+  <nanos>979700</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>World Strides Logo is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:25:52.721030900Z</date>
+  <millis>1741595152721</millis>
+  <nanos>30900</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Student functionality is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:25:52.784860700Z</date>
+  <millis>1741595152784</millis>
+  <nanos>860700</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Grade is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:25:54.436572800Z</date>
+  <millis>1741595154436</millis>
+  <nanos>572800</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Gender selection is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:25:56.492556Z</date>
+  <millis>1741595156492</millis>
+  <nanos>556000</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>filling</method>
+  <thread>1</thread>
+  <message>Selected City = New York</message>
+</record>
+<record>
+  <date>2025-03-10T08:25:59.206095400Z</date>
+  <millis>1741595159206</millis>
+  <nanos>95400</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>SEVERE</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>filling</method>
+  <thread>1</thread>
+  <message>Error Message: It looks like your username already exists. Please enter your existing password or click NOT MY ACCOUNT button and use a different username to continue.</message>
+</record>
+<record>
+  <date>2025-03-10T08:25:59.269300500Z</date>
+  <millis>1741595159269</millis>
+  <nanos>300500</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Student functionality is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:25:59.338116300Z</date>
+  <millis>1741595159338</millis>
+  <nanos>116300</nanos>
+  <sequence>9</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Grade is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:26:00.302977400Z</date>
+  <millis>1741595160302</millis>
+  <nanos>977400</nanos>
+  <sequence>10</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Gender selection is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:26:01.920975800Z</date>
+  <millis>1741595161920</millis>
+  <nanos>975800</nanos>
+  <sequence>11</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>filling</method>
+  <thread>1</thread>
+  <message>Selected City = New York</message>
+</record>
+<record>
+  <date>2025-03-10T08:26:03.871360400Z</date>
+  <millis>1741595163871</millis>
+  <nanos>360400</nanos>
+  <sequence>12</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Browser closed successfully.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-03-10T08:32:04.034805Z</date>
+  <millis>1741595524034</millis>
+  <nanos>805000</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Browser launched successfully.</message>
+</record>
+<record>
+  <date>2025-03-10T08:32:04.047772600Z</date>
+  <millis>1741595524047</millis>
+  <nanos>772600</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>testWorldStridesLogin</method>
+  <thread>1</thread>
+  <message>Navigating to World Strides Login page...</message>
+</record>
+<record>
+  <date>2025-03-10T08:32:11.123837400Z</date>
+  <millis>1741595531123</millis>
+  <nanos>837400</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>World Strides Logo is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:32:26.758768900Z</date>
+  <millis>1741595546758</millis>
+  <nanos>768900</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Student functionality is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:32:26.829580100Z</date>
+  <millis>1741595546829</millis>
+  <nanos>580100</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Grade is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:32:28.240096500Z</date>
+  <millis>1741595548240</millis>
+  <nanos>96500</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Gender selection is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:32:30.279007200Z</date>
+  <millis>1741595550279</millis>
+  <nanos>7200</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>filling</method>
+  <thread>1</thread>
+  <message>Selected City = New York</message>
+</record>
+<record>
+  <date>2025-03-10T08:32:33.057421Z</date>
+  <millis>1741595553057</millis>
+  <nanos>421000</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>SEVERE</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>filling</method>
+  <thread>1</thread>
+  <message>Error Message: It looks like your username already exists. Please enter your existing password or click NOT MY ACCOUNT button and use a different username to continue.</message>
+</record>
+<record>
+  <date>2025-03-10T08:32:33.123497Z</date>
+  <millis>1741595553123</millis>
+  <nanos>497000</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Student functionality is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:32:33.194307400Z</date>
+  <millis>1741595553194</millis>
+  <nanos>307400</nanos>
+  <sequence>9</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Grade is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:32:34.140630200Z</date>
+  <millis>1741595554140</millis>
+  <nanos>630200</nanos>
+  <sequence>10</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Gender selection is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:32:35.659574600Z</date>
+  <millis>1741595555659</millis>
+  <nanos>574600</nanos>
+  <sequence>11</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>filling</method>
+  <thread>1</thread>
+  <message>Selected City = New York</message>
+</record>
+<record>
+  <date>2025-03-10T08:32:37.384351500Z</date>
+  <millis>1741595557384</millis>
+  <nanos>351500</nanos>
+  <sequence>12</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Browser closed successfully.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-03-10T08:33:42.066433700Z</date>
+  <millis>1741595622066</millis>
+  <nanos>433700</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Browser launched successfully.</message>
+</record>
+<record>
+  <date>2025-03-10T08:33:42.081393800Z</date>
+  <millis>1741595622081</millis>
+  <nanos>393800</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>testWorldStridesLogin</method>
+  <thread>1</thread>
+  <message>Navigating to World Strides Login page...</message>
+</record>
+<record>
+  <date>2025-03-10T08:33:49.319625900Z</date>
+  <millis>1741595629319</millis>
+  <nanos>625900</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>World Strides Logo is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:34:06.508485500Z</date>
+  <millis>1741595646508</millis>
+  <nanos>485500</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Student functionality is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:34:06.577731800Z</date>
+  <millis>1741595646577</millis>
+  <nanos>731800</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Grade is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:34:07.927381900Z</date>
+  <millis>1741595647927</millis>
+  <nanos>381900</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Gender selection is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:34:09.886376200Z</date>
+  <millis>1741595649886</millis>
+  <nanos>376200</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>filling</method>
+  <thread>1</thread>
+  <message>Selected City = New York</message>
+</record>
+<record>
+  <date>2025-03-10T08:34:12.583924300Z</date>
+  <millis>1741595652583</millis>
+  <nanos>924300</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>SEVERE</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>filling</method>
+  <thread>1</thread>
+  <message>Error Message: It looks like your username already exists. Please enter your existing password or click NOT MY ACCOUNT button and use a different username to continue.</message>
+</record>
+<record>
+  <date>2025-03-10T08:34:12.644761600Z</date>
+  <millis>1741595652644</millis>
+  <nanos>761600</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Student functionality is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:34:12.707594600Z</date>
+  <millis>1741595652707</millis>
+  <nanos>594600</nanos>
+  <sequence>9</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Grade is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:34:13.605562300Z</date>
+  <millis>1741595653605</millis>
+  <nanos>562300</nanos>
+  <sequence>10</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>logElementStatus</method>
+  <thread>1</thread>
+  <message>Gender selection is working as expected.</message>
+</record>
+<record>
+  <date>2025-03-10T08:34:15.064480200Z</date>
+  <millis>1741595655064</millis>
+  <nanos>480200</nanos>
+  <sequence>11</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>filling</method>
+  <thread>1</thread>
+  <message>Selected City = New York</message>
+</record>
+<record>
+  <date>2025-03-10T08:34:17.004921200Z</date>
+  <millis>1741595657004</millis>
+  <nanos>921200</nanos>
+  <sequence>12</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Browser closed successfully.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-03-10T08:34:39.229588300Z</date>
+  <millis>1741595679229</millis>
+  <nanos>588300</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Browser launched successfully.</message>
+</record>
+<record>
+  <date>2025-03-10T08:34:51.059996100Z</date>
+  <millis>1741595691059</millis>
+  <nanos>996100</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.CP.LoginClass</logger>
+  <level>INFO</level>
+  <class>org.example.CP.LoginClass</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Browser closed successfully.</message>
+</record>
+</log>

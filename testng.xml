@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Selenium Tests">
+    <test name="World Strides Signup Test">
+        <classes>
+            <class name="org.example.CP.LoginClass"/>
+        </classes>
+    </test>
+</suite>

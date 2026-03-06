@@ -1,0 +1,17 @@
+2026-02-27T14:04:21.784910900 | verifyLogoPresence | SUCCESS
+2026-02-27T14:04:22.217915300 | Agreement | SUCCESS
+2026-02-27T14:04:32.374355600 | Payments | FAILED - Expected condition failed: waiting for element to be clickable: By.xpath: //label[contains(normalize-space(),'Pay in Full')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.70, fedcm:accounts: true, goog:processID: 22020, ms:edgeOptions: {debuggerAddress: localhost:9154}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\AMARTE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9154/devtool..., se:cdpVersion: 145.0.3800.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f3afbe909f2f63c55ce678ffb1cf9ba
+2026-02-27T14:05:42.955265700 | verifyLogoPresence | SUCCESS
+2026-02-27T14:05:43.350919900 | Agreement | SUCCESS
+2026-02-27T14:05:53.580538800 | Payments | FAILED - Expected condition failed: waiting for element to be clickable: By.xpath: //label[contains(normalize-space(),'Pay in Full')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.70, fedcm:accounts: true, goog:processID: 19704, ms:edgeOptions: {debuggerAddress: localhost:63871}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\AMARTE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63871/devtoo..., se:cdpVersion: 145.0.3800.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b4f711535dd5e1636ea671e27b13809c
+2026-02-27T14:08:54.034483 | submitRegistration | FAILED

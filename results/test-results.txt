@@ -1,0 +1,181 @@
+2026-02-27T14:09:39.894180300 | verifyLogoPresence | SUCCESS
+2026-02-27T14:09:49.962752100 | testSignUpFlow | SUCCESS
+2026-02-27T14:10:18.057577400 | selectParticipantDetails | SUCCESS
+2026-02-27T14:10:19.719272700 | enterStudentPersonalDetails | SUCCESS
+2026-02-27T14:10:22.700349800 | selectGuardianDetails | SUCCESS
+2026-02-27T14:10:29.992134100 | AccountDetails | SUCCESS
+2026-02-27T14:10:36.865824200 | Agreement | SUCCESS
+2026-02-27T14:11:10.638452900 | Payments | SUCCESS
+2026-02-27T14:15:22.998276900 | verifyLogoPresence | SUCCESS
+2026-02-27T14:15:33.263970200 | testSignUpFlow | SUCCESS
+2026-02-27T14:15:56.424906100 | selectParticipantDetails | SUCCESS
+2026-02-27T14:15:58.069566400 | enterStudentPersonalDetails | SUCCESS
+2026-02-27T14:16:01.043829 | selectGuardianDetails | SUCCESS
+2026-02-27T14:16:08.362473900 | AccountDetails | SUCCESS
+2026-02-27T14:16:15.889939100 | Agreement | SUCCESS
+2026-02-27T14:16:42.040572100 | Payments | SUCCESS
+2026-02-27T14:17:40.174697800 | verifyLogoPresence | SUCCESS
+2026-02-27T14:17:49.773397500 | testSignUpFlow | SUCCESS
+2026-02-27T14:18:10.110651500 | selectParticipantDetails | SUCCESS
+2026-02-27T14:18:11.602168400 | enterStudentPersonalDetails | SUCCESS
+2026-02-27T14:18:14.338495100 | selectGuardianDetails | SUCCESS
+2026-02-27T14:18:21.663176700 | AccountDetails | SUCCESS
+2026-02-27T14:18:29.293379600 | Agreement | SUCCESS
+2026-02-27T14:18:52.761291100 | Payments | SUCCESS
+2026-02-27T14:20:37.515435600 | submitRegistration | SUCCESS
+2026-03-03T12:35:43.444058700 | verifyLogoPresence | SUCCESS
+2026-03-03T12:35:53.828013900 | testSignUpFlow | SUCCESS
+2026-03-03T12:36:17.478366200 | selectParticipantDetails | SUCCESS
+2026-03-03T12:36:18.799555600 | enterStudentPersonalDetails | SUCCESS
+2026-03-03T12:36:21.589228700 | selectGuardianDetails | SUCCESS
+2026-03-03T12:36:28.913206100 | AccountDetails | SUCCESS
+2026-03-03T12:37:02.277652800 | Agreement | SUCCESS
+2026-03-03T12:37:08.893889800 | Payments | SUCCESS
+2026-03-03T12:39:07.372244200 | submitRegistration | SUCCESS
+2026-03-04T11:08:24.276630500 | verifyLogoPresence | SUCCESS
+2026-03-04T11:08:33.371955100 | testSignUpFlow | SUCCESS
+2026-03-04T11:08:33.411645500 | selectParticipantDetails | FAILED - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tavellingAs1"]/option[2]"}
+  (Session info: MicrosoftEdge=145.0.3800.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a3039d7947211c0c541d78771710830e, findElement {value=//*[@id="tavellingAs1"]/option[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.70, fedcm:accounts: true, goog:processID: 29312, ms:edgeOptions: {debuggerAddress: localhost:39406}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\AMARTE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:39406/devtoo..., se:cdpVersion: 145.0.3800.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3039d7947211c0c541d78771710830e
+2026-03-04T11:08:33.451452700 | enterStudentPersonalDetails | FAILED - no such element: Unable to locate element: {"method":"css selector","selector":"#firstnameTraveller1"}
+  (Session info: MicrosoftEdge=145.0.3800.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a3039d7947211c0c541d78771710830e, findElement {value=firstnameTraveller1, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.70, fedcm:accounts: true, goog:processID: 29312, ms:edgeOptions: {debuggerAddress: localhost:39406}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\AMARTE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:39406/devtoo..., se:cdpVersion: 145.0.3800.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3039d7947211c0c541d78771710830e
+2026-03-04T11:08:33.485422600 | selectGuardianDetails | FAILED - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="relationshipGuardian"]/option[3]"}
+  (Session info: MicrosoftEdge=145.0.3800.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a3039d7947211c0c541d78771710830e, findElement {value=//*[@id="relationshipGuardian"]/option[3], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.70, fedcm:accounts: true, goog:processID: 29312, ms:edgeOptions: {debuggerAddress: localhost:39406}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\AMARTE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:39406/devtoo..., se:cdpVersion: 145.0.3800.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3039d7947211c0c541d78771710830e
+2026-03-04T11:08:33.515233800 | AccountDetails | FAILED - no such element: Unable to locate element: {"method":"css selector","selector":"#usernameGaurdian"}
+  (Session info: MicrosoftEdge=145.0.3800.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a3039d7947211c0c541d78771710830e, findElement {value=usernameGaurdian, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.70, fedcm:accounts: true, goog:processID: 29312, ms:edgeOptions: {debuggerAddress: localhost:39406}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\AMARTE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:39406/devtoo..., se:cdpVersion: 145.0.3800.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3039d7947211c0c541d78771710830e
+2026-03-04T11:08:33.579834 | Agreement | SUCCESS
+2026-03-04T11:08:53.817421 | Payments | FAILED - Expected condition failed: waiting for element to be clickable: By.id: lblPayInFull (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.70, fedcm:accounts: true, goog:processID: 29312, ms:edgeOptions: {debuggerAddress: localhost:39406}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\AMARTE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:39406/devtoo..., se:cdpVersion: 145.0.3800.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3039d7947211c0c541d78771710830e
+2026-03-04T11:09:25.333513900 | verifyLogoPresence | FAILED - Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="header"]/div/div/div[1]/div/div/div/span/img (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.70, fedcm:accounts: true, goog:processID: 21748, ms:edgeOptions: {debuggerAddress: localhost:55997}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\AMARTE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55997/devtoo..., se:cdpVersion: 145.0.3800.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 33416b68649bfa9635e7672840b710a8
+2026-03-04T11:09:45.363328600 | testSignUpFlow | FAILED - Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id="content"]/div/div/div/div[2]/div/div[2]/div/div[1]/div/div/div/div[2]/a (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.70, fedcm:accounts: true, goog:processID: 21748, ms:edgeOptions: {debuggerAddress: localhost:55997}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\AMARTE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55997/devtoo..., se:cdpVersion: 145.0.3800.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 33416b68649bfa9635e7672840b710a8
+2026-03-04T11:09:45.400450900 | selectParticipantDetails | FAILED - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tavellingAs1"]/option[2]"}
+  (Session info: MicrosoftEdge=145.0.3800.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [33416b68649bfa9635e7672840b710a8, findElement {using=xpath, value=//*[@id="tavellingAs1"]/option[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.70, fedcm:accounts: true, goog:processID: 21748, ms:edgeOptions: {debuggerAddress: localhost:55997}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\AMARTE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55997/devtoo..., se:cdpVersion: 145.0.3800.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 33416b68649bfa9635e7672840b710a8
+2026-03-04T11:09:45.437909800 | enterStudentPersonalDetails | FAILED - no such element: Unable to locate element: {"method":"css selector","selector":"#firstnameTraveller1"}
+  (Session info: MicrosoftEdge=145.0.3800.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [33416b68649bfa9635e7672840b710a8, findElement {using=id, value=firstnameTraveller1}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.70, fedcm:accounts: true, goog:processID: 21748, ms:edgeOptions: {debuggerAddress: localhost:55997}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\AMARTE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55997/devtoo..., se:cdpVersion: 145.0.3800.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 33416b68649bfa9635e7672840b710a8
+2026-03-04T11:09:45.472549600 | selectGuardianDetails | FAILED - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="relationshipGuardian"]/option[3]"}
+  (Session info: MicrosoftEdge=145.0.3800.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [33416b68649bfa9635e7672840b710a8, findElement {using=xpath, value=//*[@id="relationshipGuardian"]/option[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.70, fedcm:accounts: true, goog:processID: 21748, ms:edgeOptions: {debuggerAddress: localhost:55997}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\AMARTE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55997/devtoo..., se:cdpVersion: 145.0.3800.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 33416b68649bfa9635e7672840b710a8
+2026-03-04T11:09:45.510588600 | AccountDetails | FAILED - no such element: Unable to locate element: {"method":"css selector","selector":"#usernameGaurdian"}
+  (Session info: MicrosoftEdge=145.0.3800.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [33416b68649bfa9635e7672840b710a8, findElement {using=id, value=usernameGaurdian}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.70, fedcm:accounts: true, goog:processID: 21748, ms:edgeOptions: {debuggerAddress: localhost:55997}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\AMARTE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55997/devtoo..., se:cdpVersion: 145.0.3800.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 33416b68649bfa9635e7672840b710a8
+2026-03-04T11:09:45.589901800 | Agreement | SUCCESS
+2026-03-04T11:10:06.066308900 | Payments | FAILED - Expected condition failed: waiting for element to be clickable: By.id: lblPayInFull (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.70, fedcm:accounts: true, goog:processID: 21748, ms:edgeOptions: {debuggerAddress: localhost:55997}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\AMARTE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55997/devtoo..., se:cdpVersion: 145.0.3800.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 33416b68649bfa9635e7672840b710a8
+2026-03-04T11:12:26.266676100 | verifyLogoPresence | SUCCESS
+2026-03-04T11:12:34.827630700 | testSignUpFlow | SUCCESS
+2026-03-04T11:12:34.868067600 | selectParticipantDetails | FAILED - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tavellingAs1"]/option[2]"}
+  (Session info: MicrosoftEdge=145.0.3800.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7f6ee0458ed9161fd12feba842f530bd, findElement {using=xpath, value=//*[@id="tavellingAs1"]/option[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.70, fedcm:accounts: true, goog:processID: 25368, ms:edgeOptions: {debuggerAddress: localhost:22485}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\AMARTE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:22485/devtoo..., se:cdpVersion: 145.0.3800.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f6ee0458ed9161fd12feba842f530bd
+2026-03-04T11:12:34.901472900 | enterStudentPersonalDetails | FAILED - no such element: Unable to locate element: {"method":"css selector","selector":"#firstnameTraveller1"}
+  (Session info: MicrosoftEdge=145.0.3800.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7f6ee0458ed9161fd12feba842f530bd, findElement {using=id, value=firstnameTraveller1}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.70, fedcm:accounts: true, goog:processID: 25368, ms:edgeOptions: {debuggerAddress: localhost:22485}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\AMARTE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:22485/devtoo..., se:cdpVersion: 145.0.3800.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f6ee0458ed9161fd12feba842f530bd
+2026-03-04T11:12:43.081741300 | selectGuardianDetails | FAILED - element not interactable: Element is not currently visible and may not be manipulated
+  (Session info: MicrosoftEdge=145.0.3800.70)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7f6ee0458ed9161fd12feba842f530bd, clickElement {id=f.CE3AF45DAB38683F2CA2D9C82D43A4F6.d.B14C2376FCAEF5857A9B54017D36421E.e.247}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.70, fedcm:accounts: true, goog:processID: 25368, ms:edgeOptions: {debuggerAddress: localhost:22485}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\AMARTE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:22485/devtoo..., se:cdpVersion: 145.0.3800.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (7f6ee0458ed9161fd12feba842f530bd)] -> xpath: //*[@id="relationshipGuardian"]/option[3]]
+Session ID: 7f6ee0458ed9161fd12feba842f530bd
+2026-03-04T11:12:43.206014900 | AccountDetails | FAILED - element not interactable
+  (Session info: MicrosoftEdge=145.0.3800.70)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7f6ee0458ed9161fd12feba842f530bd, sendKeysToElement {value=[Ljava.lang.CharSequence;@736d6a5c, id=f.CE3AF45DAB38683F2CA2D9C82D43A4F6.d.B14C2376FCAEF5857A9B54017D36421E.e.154}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.70, fedcm:accounts: true, goog:processID: 25368, ms:edgeOptions: {debuggerAddress: localhost:22485}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\AMARTE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:22485/devtoo..., se:cdpVersion: 145.0.3800.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (7f6ee0458ed9161fd12feba842f530bd)] -> id: usernameGaurdian]
+Session ID: 7f6ee0458ed9161fd12feba842f530bd
+2026-03-04T11:14:26.260307600 | verifyLogoPresence | SUCCESS
+2026-03-04T11:14:35.975412700 | testSignUpFlow | SUCCESS
+2026-03-04T11:14:43.066426 | selectParticipantDetails | SUCCESS
+2026-03-04T11:14:44.646642400 | enterStudentPersonalDetails | SUCCESS
+2026-03-04T11:14:47.154340500 | selectGuardianDetails | SUCCESS
+2026-03-04T11:14:54.274745400 | AccountDetails | SUCCESS
+2026-03-04T11:14:59.329118300 | Agreement | SUCCESS
+2026-03-04T11:15:32.577078800 | Payments | SUCCESS
+2026-03-04T11:15:57.519324500 | submitRegistration | SUCCESS

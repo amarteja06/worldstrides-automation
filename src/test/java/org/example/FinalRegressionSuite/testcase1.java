@@ -112,7 +112,7 @@ public class testcase1 {
     @Test(priority = 4)
     public void enterStudentPersonalDetails() {
         try {
-            driver.findElement(By.id("firstnameTraveller1")).sendKeys("March04th2026");
+            driver.findElement(By.id("firstnameTraveller1")).sendKeys("March06th2026");
             driver.findElement(By.id("lastNameTraveller1")).sendKeys("Amar");
             driver.findElement(By.id("emailTraveler1")).sendKeys("Selenium@gmail23.com");
             driver.findElement(By.id("retypeEmailTraveler1")).sendKeys("Selenium@gmail23.com");
@@ -150,7 +150,7 @@ public class testcase1 {
     @Test(priority = 6)
     public void AccountDetails() {
         try {
-            driver.findElement(By.id("usernameGaurdian")).sendKeys("March04th2026Script");
+            driver.findElement(By.id("usernameGaurdian")).sendKeys("March06th2026Script");
             driver.findElement(By.id("passwordGaurdian")).sendKeys("Amar@0601");
             driver.findElement(By.id("retypePasswordGaurdian")).sendKeys("Amar@0601");
             driver.findElement(By.xpath("//*[@id=\"parent-acc-form\"]/div[2]/div[2]/label")).click();
@@ -266,5 +266,3 @@ public class testcase1 {
     }
 }
 
-
-}

@@ -14,4 +14,4 @@ System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.v
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.70, fedcm:accounts: true, goog:processID: 19704, ms:edgeOptions: {debuggerAddress: localhost:63871}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\AMARTE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63871/devtoo..., se:cdpVersion: 145.0.3800.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: b4f711535dd5e1636ea671e27b13809c
-2026-02-27T14:08:54.034483 | submitRegistration | FAILED
+

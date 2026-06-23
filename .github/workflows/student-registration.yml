@@ -28,5 +28,34 @@ jobs:
       - name: Upload Screenshot
         uses: actions/upload-artifact@v4
         with:
-          git add .name: registration-proof
+              name: registration-proof
               path: screenshots/
+
+      - name: Send Email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+
+          username: ${{ secrets.GMAIL_USER }}
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+
+          subject: Customer Portal Registration Success
+
+          to: your.office@company.com
+          from: ${{ secrets.GMAIL_USER }}
+
+          body: |
+            ✅ Customer Portal Registration Success
+
+            Execution Time: Automated GitHub Run
+
+            Status: SUCCESS
+
+            Please find the registration confirmation screenshot attached for reference.
+
+            Regards,
+            QA Automation Suite
+
+          attachments: screenshots/congratulations.png

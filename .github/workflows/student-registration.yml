@@ -1,4 +1,4 @@
-name: Student Registration
+name: Student Registration Test
 
 on:
   schedule:

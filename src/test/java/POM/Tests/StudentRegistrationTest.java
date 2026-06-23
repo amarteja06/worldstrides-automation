@@ -3,12 +3,16 @@ package POM.Tests;
 import POM.base.BaseTest;
 import POM.Pages.*;
 import POM.utils.TestDataProvider;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.time.Duration;
 
 public class StudentRegistrationTest extends BaseTest {
@@ -45,6 +49,7 @@ public class StudentRegistrationTest extends BaseTest {
             traveller.enterGuardianDetails();
 
             traveller.createAccount(username, password);
+            System.out.println();
 
             agreement.Agreement();
             
@@ -61,12 +66,22 @@ public class StudentRegistrationTest extends BaseTest {
             );
 
             if(driver.findElement(
-                    By.xpath("//*[@id=\"content\"]/div/div/div/div[2]/div/div[1]/div/div/div[2]/div[1]")
-            ).isDisplayed()){
+                    By.xpath("//*[@id=\"content\"]/div/div/div/div[2]/div/div[1]/div/div/div[2]/div[1]")).isDisplayed()){
 
                 System.out.println("Registration Successful");
                 System.out.println("FULL FLOW SUCCESS");
 
+                File screenshot = ((TakesScreenshot) driver)
+                        .getScreenshotAs(OutputType.FILE);
+
+                File destination =
+                        new File("screenshots/congratulations.png");
+
+                destination.getParentFile().mkdirs();
+
+                FileUtils.copyFile(screenshot, destination);
+
+                System.out.println("Screenshot captured successfully");
             }
             else{
 

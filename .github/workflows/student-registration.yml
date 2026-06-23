@@ -24,3 +24,9 @@ jobs:
 
       - name: Run Student Registration
         run: mvn test -Dheadless=true -Dtest=StudentRegistrationTest
+
+      - name: Upload Screenshot
+        uses: actions/upload-artifact@v4
+        with:
+          git add .name: registration-proof
+              path: screenshots/

@@ -71,7 +71,7 @@ public class testcase2 {
             WebElement ProgramRegistration = wait.until(ExpectedConditions.visibilityOfElementLocated(
                     By.id("registration-program")
             ));
-            ProgramRegistration.sendKeys("228614");
+            ProgramRegistration.sendKeys("110765");
 
             WebElement continueReg = wait.until(ExpectedConditions.elementToBeClickable(
                     By.xpath("//*[@id=\"program-registration-form\"]/div[3]/div/button")
@@ -102,7 +102,7 @@ public class testcase2 {
     public void testFillTravelerInfo() {
         try {
             driver.findElement(By.xpath("//*[@id=\"countryTraveler1\"]/option[2]")).click();
-            driver.findElement(By.id("firstnameTraveller1")).sendKeys("AmarMarch04th2026");
+            driver.findElement(By.id("firstnameTraveller1")).sendKeys("AmarMarch18th2026");
             driver.findElement(By.id("lastNameTraveller1")).sendKeys("TestSelenium1");
             driver.findElement(By.id("emailTraveler1")).sendKeys("Selenium@gmail23.com");
             driver.findElement(By.id("retypeEmailTraveler1")).sendKeys("Selenium@gmail23.com");
@@ -129,7 +129,7 @@ public class testcase2 {
             select.selectByVisibleText("USA(+1)");
 
             driver.findElement(By.id("1phoneTraveler1")).sendKeys("9989998978");
-            driver.findElement(By.id("usernameTraveler1")).sendKeys("Testcase2March04th2026");
+            driver.findElement(By.id("usernameTraveler1")).sendKeys("1Testcase2March18th2026");
             driver.findElement(By.id("passwordTraveler1")).sendKeys("Amar@0601");
             driver.findElement(By.id("retypePasswordTraveler1")).sendKeys("Amar@0601");
 
@@ -193,7 +193,7 @@ public class testcase2 {
     @Test(dependsOnMethods = "Agreement")
     public void PaymentFull() throws InterruptedException {
         try {
-            driver.findElement(By.id("listPayInFull")).click();
+            driver.findElement(By.id("lblPayInFull")).click();
             Thread.sleep(2000);
             log("Pay in Full selected");
 
@@ -247,6 +247,6 @@ public class testcase2 {
         } catch (Exception e) {
             log("Error in testSubmitRegistration: " + e.getMessage());
         }
-        driver.quit();
+
     }
 }

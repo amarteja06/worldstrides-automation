@@ -85,7 +85,7 @@ public class testcase3 {
 
 
         WebElement Studentname = driver.findElement(By.id("firstnameTraveller1"));
-        Studentname.sendKeys("january29th2026");
+        Studentname.sendKeys("March27th2026");
         String enteredName = Studentname.getAttribute("value");
         System.out.println("Student First name : " + enteredName);
 
@@ -211,7 +211,7 @@ public class testcase3 {
         System.out.println("USERNAME DETAILS :-");
 
         WebElement usernameResponsible = driver.findElement(By.id("usernameResponsible"));
-        usernameResponsible.sendKeys("january29th20261Testcase3");
+        usernameResponsible.sendKeys("March27th20261Testcase3");
         String Username = usernameResponsible.getAttribute("value");
         System.out.println("Username :"+ Username);
 

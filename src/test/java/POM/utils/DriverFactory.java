@@ -25,7 +25,7 @@ public class DriverFactory {
 
             System.setProperty(
                     "webdriver.edge.driver",
-                    "D:\\Drivers\\msedgedriver.exe"   // your path
+                    "D:\\Selenium Drivers\\msedgedriver.exe"   // your path
             );
 
             driver = new EdgeDriver(options);
@@ -34,5 +34,5 @@ public class DriverFactory {
         }
 
         return driver;
-        git add .git remote add origin https://github.com/YOUR_USERNAME/worldstrides-automation.gitgit push -u origin main   }
+    }
 }

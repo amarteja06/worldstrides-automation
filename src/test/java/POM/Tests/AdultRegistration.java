@@ -3,8 +3,13 @@ package POM.Tests;
 import POM.base.BaseTest;
 import POM.Pages.*;
 import POM.utils.TestDataProvider;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.time.Duration;
 
 public class AdultRegistration extends BaseTest {
 
@@ -42,6 +47,19 @@ public class AdultRegistration extends BaseTest {
             payment.completeCardPayment();
 
             register.submitRegistration();
+
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+
+            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"content\"]/div/div/div/div[2]/div/div[1]/div/div/div[2]/div[1]")));
+
+            if(driver.findElement(By.xpath("//*[@id=\"content\"]/div/div/div/div[2]/div/div[1]/div/div/div[2]/div[1]")).isDisplayed())
+            {
+                System.out.println("Registration Successful");
+                System.out.println("FULL FLOW SUCCESS");
+            }
+            else{
+                Assert.fail("Registration Failed");
+            }
 
         } catch (Exception e){
             e.printStackTrace();

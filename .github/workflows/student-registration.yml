@@ -26,12 +26,14 @@ jobs:
         run: mvn test -Dheadless=true -Dtest=StudentRegistrationTest
 
       - name: Upload Screenshot
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-              name: registration-proof
-              path: screenshots/
+          name: registration-proof
+          path: screenshots/
 
-      - name: Send Email
+      - name: Send Success Email
+        if: success()
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
@@ -49,13 +51,44 @@ jobs:
           body: |
             ✅ Customer Portal Registration Success
 
-            Execution Time: Automated GitHub Run
-
             Status: SUCCESS
 
-            Please find the registration confirmation screenshot attached for reference.
+            Registration completed successfully.
+
+            Screenshot attached.
 
             Regards,
             QA Automation Suite
 
+         
+
           attachments: screenshots/congratulations.png
+      - name: Send Failure Email
+        if: failure()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+
+          username: ${{ secrets.GMAIL_USER }}
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+
+          subject: Customer Portal Registration Failed
+
+          to: Amarteja.Chennu@infinite.com
+          from: ${{ secrets.GMAIL_USER }}
+
+          body: |
+            ❌ Customer Portal Registration Failed
+
+            Status: FAILED
+
+            Registration did not complete successfully.
+
+            Please review GitHub Actions logs.
+
+            Regards,
+            QA Automation Suite
+
+          attachments: screenshots/failure.png

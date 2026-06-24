@@ -36,7 +36,7 @@ public class StudentRegistrationTest extends BaseTest {
         try {
 
             signup.clickSignup();
-            signup.enterProgramCode("");
+            signup.enterProgramCode("228614");
             signup.continueRegistration();
 
             traveller.selectStudent();

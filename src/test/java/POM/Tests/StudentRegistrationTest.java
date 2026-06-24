@@ -88,9 +88,27 @@ public class StudentRegistrationTest extends BaseTest {
                 Assert.fail("Registration Failed");
             }
 
-        } catch (Exception e){
+        }
+        catch (Exception e){
+
             e.printStackTrace();
-            Assert.fail();
+
+            try {
+
+                File screenshot = ((TakesScreenshot)driver)
+                        .getScreenshotAs(OutputType.FILE);
+
+                FileUtils.copyFile(
+                        screenshot,
+                        new File("screenshots/failure.png")
+                );
+
+            } catch (Exception ex){
+                ex.printStackTrace();
+            }
+
+            Assert.fail("Testing Failure Email");
+
         }
     }
-    }
+}

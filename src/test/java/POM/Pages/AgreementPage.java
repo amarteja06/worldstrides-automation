@@ -70,7 +70,7 @@ public class AgreementPage {
                 saveBtn.click();
 
                 // Small wait for next page to load
-                Thread.sleep(500);
+                Thread.sleep(1000);
             }
 
             System.out.println("Agreement pages completed successfully");

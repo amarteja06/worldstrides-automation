@@ -94,7 +94,7 @@ public class PaymentPage {
 
         WebElement save = wait.waitForClickable(
                 By.xpath("//*[@id=\"content\"]/div/div/div/div/div/div/div[1]/div/div/section/div/div/div[1]/div[2]/div/div/button[2]")
-        );
+        );                             //*[@id="content"]/div/div/div/div/div/div/div[1]/div/div/section/div/div/div[1]/div[2]/div/div/button[2]
 
         ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", save);
         save.click();

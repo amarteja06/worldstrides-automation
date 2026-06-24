@@ -2,7 +2,7 @@ name: Student Registration
 
 on:
   schedule:
-    - cron: '*/2 * * * *'   # every 2 minutes for testing
+    - cron: '30 15 * * *'
   workflow_dispatch:
 
 jobs:

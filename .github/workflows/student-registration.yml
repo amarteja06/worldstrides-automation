@@ -2,8 +2,8 @@ name: Student Registration Test
 
 on:
   schedule:
-   - cron: '30 3 * * *'   # 9:00 AM IST
-  - cron: '30 9 * * *'   #3:00 PM
+     - cron: '30 9 * * *'   
+        
   workflow_dispatch:
 
 jobs:

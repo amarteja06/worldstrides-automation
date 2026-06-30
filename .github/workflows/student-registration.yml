@@ -6,12 +6,11 @@ on:
     - cron: '30 0 * * *'    # 6:00 AM IST
     - cron: '30 8 * * *'    # 2:00 PM IST
     - cron: '30 12 * * *'   # 6:00 PM IST
+
   workflow_dispatch:
 
 jobs:
-
   run-test:
-
     runs-on: windows-latest
 
     steps:
@@ -25,18 +24,50 @@ jobs:
           distribution: temurin
           java-version: 21
 
-      - name: Run Student Registration
+      # -------------------------
+      # First Attempt
+      # -------------------------
+
+      - name: Run Student Registration (Attempt 1)
+        id: attempt1
+        continue-on-error: true
         run: mvn test -Dheadless=true -Dtest=StudentRegistrationTest
+
+      # -------------------------
+      # Wait Before Retry
+      # -------------------------
+
+      - name: Wait 2 Minutes Before Retry
+        if: steps.attempt1.outcome == 'failure'
+        shell: cmd
+        run: timeout /t 120
+
+      # -------------------------
+      # Retry
+      # -------------------------
+
+      - name: Retry Student Registration
+        if: steps.attempt1.outcome == 'failure'
+        run: mvn test -Dheadless=true -Dtest=StudentRegistrationTest
+
+      # -------------------------
+      # Upload Screenshot
+      # -------------------------
 
       - name: Upload Screenshot
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: registration-proof
+          name: CustomerPortal-Screenshot
           path: screenshots/
+
+      # -------------------------
+      # Success Email
+      # -------------------------
 
       - name: Send Success Email
         if: success()
+        continue-on-error: true
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
@@ -46,28 +77,34 @@ jobs:
           username: ${{ secrets.GMAIL_USER }}
           password: ${{ secrets.GMAIL_APP_PASSWORD }}
 
-          subject: Customer Portal Registration Success
+          subject: "✅ WorldStrides Customer Portal - Registration Successful"
 
           to: Amarteja.Chennu@infinite.com
           from: ${{ secrets.GMAIL_USER }}
 
           body: |
-            ✅ Customer Portal Registration Success
+            ✅ WorldStrides Customer Portal Registration
 
-            Status: SUCCESS
+            Status      : SUCCESS
 
-            Registration completed successfully.
+            Execution   : GitHub Actions
 
-            Screenshot attached.
+            Result      : Registration completed successfully.
+
+            Screenshot is attached.
 
             Regards,
             QA Automation Suite
 
-         
-
           attachments: screenshots/congratulations.png
+
+      # -------------------------
+      # Failure Email
+      # -------------------------
+
       - name: Send Failure Email
         if: failure()
+        continue-on-error: true
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
@@ -77,19 +114,21 @@ jobs:
           username: ${{ secrets.GMAIL_USER }}
           password: ${{ secrets.GMAIL_APP_PASSWORD }}
 
-          subject: Customer Portal Registration Failed
+          subject: "❌ WorldStrides Customer Portal - Registration Failed"
 
           to: Amarteja.Chennu@infinite.com
           from: ${{ secrets.GMAIL_USER }}
 
           body: |
-            ❌ Customer Portal Registration Failed
+            ❌ WorldStrides Customer Portal Registration
 
-            Status: FAILED
+            Status      : FAILED
 
-            Registration did not complete successfully.
+            Execution   : GitHub Actions
 
-            Please review GitHub Actions logs.
+            The registration failed even after an automatic retry.
+
+            Please review the GitHub Actions logs.
 
             Regards,
             QA Automation Suite

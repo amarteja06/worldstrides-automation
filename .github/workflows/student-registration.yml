@@ -2,7 +2,9 @@ name: Student Registration
 
 on:
   schedule:
-     - cron: '0 8 * * *'
+    - cron: '30 0 * * *'    # 6:00 AM IST
+    - cron: '30 8 * * *'    # 2:00 PM IST
+    - cron: '30 12 * * *' # 6:00 PM IST
   workflow_dispatch:
 
 jobs:

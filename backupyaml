@@ -1,0 +1,97 @@
+name: Student Registration
+
+on:
+  schedule:
+    - cron: '30 19 * * *'   # 1:00 AM IST
+    - cron: '30 0 * * *'    # 6:00 AM IST
+    - cron: '30 8 * * *'    # 2:00 PM IST
+    - cron: '30 12 * * *'   # 6:00 PM IST
+  workflow_dispatch:
+
+jobs:
+
+  run-test:
+
+    runs-on: windows-latest
+
+    steps:
+
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Run Student Registration
+        run: mvn test -Dheadless=true -Dtest=StudentRegistrationTest
+
+      - name: Upload Screenshot
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: registration-proof
+          path: screenshots/
+
+      - name: Send Success Email
+        if: success()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+
+          username: ${{ secrets.GMAIL_USER }}
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+
+          subject: Customer Portal Registration Success
+
+          to: Amarteja.Chennu@infinite.com
+          from: ${{ secrets.GMAIL_USER }}
+
+          body: |
+            ✅ Customer Portal Registration Success
+
+            Status: SUCCESS
+
+            Registration completed successfully.
+
+            Screenshot attached.
+
+            Regards,
+            QA Automation Suite
+
+         
+
+          attachments: screenshots/congratulations.png
+      - name: Send Failure Email
+        if: failure()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+
+          username: ${{ secrets.GMAIL_USER }}
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+
+          subject: Customer Portal Registration Failed
+
+          to: Amarteja.Chennu@infinite.com
+          from: ${{ secrets.GMAIL_USER }}
+
+          body: |
+            ❌ Customer Portal Registration Failed
+
+            Status: FAILED
+
+            Registration did not complete successfully.
+
+            Please review GitHub Actions logs.
+
+            Regards,
+            QA Automation Suite
+
+          attachments: screenshots/failure.png

@@ -17,7 +17,7 @@ public class RegistrationPage {
 
     public void submitRegistration(){
 
-        driver.findElement(submitBtn).click();
+        driver.findElement(By.xpath("//*[@id=\"content\"]/div/div/div/div/div/div/div[3]/div/div/section/div[2]/button[4]")).click();
 
     }
 

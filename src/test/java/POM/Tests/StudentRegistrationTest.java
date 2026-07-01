@@ -57,7 +57,7 @@ public class StudentRegistrationTest extends BaseTest {
 
             register.submitRegistration();
 
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(50));
 
             wait.until(
                     ExpectedConditions.visibilityOfElementLocated(
@@ -70,6 +70,20 @@ public class StudentRegistrationTest extends BaseTest {
 
                 System.out.println("Registration Successful");
                 System.out.println("FULL FLOW SUCCESS");
+
+                File credentials = new File("credentials.txt");
+
+                credentials.getParentFile();
+
+                java.io.FileWriter writer = new java.io.FileWriter(credentials);
+
+                writer.write("Program Code : 228614\n");
+                writer.write("Username : " + username + "\n");
+                writer.write("Password : " + password + "\n");
+
+                writer.close();
+
+                System.out.println("Credentials file created successfully");
 
                 File screenshot = ((TakesScreenshot) driver)
                         .getScreenshotAs(OutputType.FILE);

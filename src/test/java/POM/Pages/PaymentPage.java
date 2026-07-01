@@ -2,6 +2,10 @@ package POM.Pages;
 
 import POM.utils.WaitUtils;
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class PaymentPage {
 
@@ -13,9 +17,9 @@ public class PaymentPage {
         wait = new WaitUtils(driver);
     }
 
-    public void payInFullWithBank(){
+    public void payInFullWithBank() {
 
-        try{
+        try {
 
             // STEP 1: Pay in Full
             WebElement payInFull = wait.waitForClickable(By.id("lblPayInFull"));
@@ -26,14 +30,20 @@ public class PaymentPage {
                     By.xpath("//*[@id=\"content\"]/div/div/div/div/div/div/div[1]/div/div/section/div/div/div[1]/div[2]/div/div/button[2]")
             );
 
-            ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", save1);
+            ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", save1);
             save1.click();
 
-            //  IMPORTANT WAIT (same as your working code)
-            Thread.sleep(4000);
+            // Wait until page finishes loading
+            new WebDriverWait(driver, Duration.ofSeconds(30))
+                    .until(webDriver ->
+                            ((JavascriptExecutor) webDriver)
+                                    .executeScript("return document.readyState")
+                                    .equals("complete"));
 
-            // STEP 3: Select Electronic Check
-            WebElement checkingAcc = wait.waitForClickable(By.id("lblElectronicCheck"));
+            // Wait until Electronic Check option is clickable
+            WebElement checkingAcc = new WebDriverWait(driver, Duration.ofSeconds(30))
+                    .until(ExpectedConditions.elementToBeClickable(By.id("lblElectronicCheck")));
+
             checkingAcc.click();
 
             // STEP 4: Enter Bank Details
@@ -49,16 +59,19 @@ public class PaymentPage {
                     By.xpath("//*[@id=\"content\"]/div/div/div/div/div/div/div[2]/div[1]/div/section/div/div/div[1]/div[2]/div/div/button[2]")
             );
 
-            ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", save2);
+            ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", save2);
             save2.click();
 
-            // 🔥 FINAL WAIT BEFORE SUBMIT PAGE
-            Thread.sleep(5000);
+            // Wait until final page loads
+            new WebDriverWait(driver, Duration.ofSeconds(30))
+                    .until(webDriver ->
+                            ((JavascriptExecutor) webDriver)
+                                    .executeScript("return document.readyState")
+                                    .equals("complete"));
 
             System.out.println("Payment completed successfully");
 
-        }
-        catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             throw new RuntimeException("Payment failed");
         }

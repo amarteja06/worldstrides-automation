@@ -11,6 +11,7 @@ on:
 
 jobs:
   run-test:
+
     runs-on: windows-latest
 
     steps:
@@ -34,32 +35,30 @@ jobs:
         run: mvn test -Dheadless=true -Dtest=StudentRegistrationTest
 
       # -------------------------
-      # Wait Before Retry
+      # Retry After 2 Minutes
       # -------------------------
 
-      - name: Wait 2 Minutes Before Retry
+      - name: Wait Before Retry
         if: steps.attempt1.outcome == 'failure'
         shell: cmd
         run: timeout /t 120
-
-      # -------------------------
-      # Retry
-      # -------------------------
 
       - name: Retry Student Registration
         if: steps.attempt1.outcome == 'failure'
         run: mvn test -Dheadless=true -Dtest=StudentRegistrationTest
 
       # -------------------------
-      # Upload Screenshot
+      # Upload Artifacts
       # -------------------------
 
-      - name: Upload Screenshot
+      - name: Upload Artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: CustomerPortal-Screenshot
-          path: screenshots/
+          name: Registration-Proof
+          path: |
+            screenshots/
+            credentials.txt
 
       # -------------------------
       # Success Email
@@ -77,26 +76,28 @@ jobs:
           username: ${{ secrets.GMAIL_USER }}
           password: ${{ secrets.GMAIL_APP_PASSWORD }}
 
-          subject: "✅ WorldStrides Customer Portal - Registration Successful"
+          subject: "✅ Customer Portal Registration Success"
 
           to: Amarteja.Chennu@infinite.com
           from: ${{ secrets.GMAIL_USER }}
 
           body: |
-            ✅ WorldStrides Customer Portal Registration
+            ✅ Customer Portal Registration Success
 
-            Status      : SUCCESS
+            Status : SUCCESS
 
-            Execution   : GitHub Actions
+            Registration completed successfully.
 
-            Result      : Registration completed successfully.
+            Username and Password are attached.
 
-            Screenshot is attached.
+            Screenshot attached.
 
             Regards,
             QA Automation Suite
 
-          attachments: screenshots/congratulations.png
+          attachments: |
+            screenshots/congratulations.png
+            credentials.txt
 
       # -------------------------
       # Failure Email
@@ -114,23 +115,25 @@ jobs:
           username: ${{ secrets.GMAIL_USER }}
           password: ${{ secrets.GMAIL_APP_PASSWORD }}
 
-          subject: "❌ WorldStrides Customer Portal - Registration Failed"
+          subject: "❌ Customer Portal Registration Failed"
 
           to: Amarteja.Chennu@infinite.com
           from: ${{ secrets.GMAIL_USER }}
 
           body: |
-            ❌ WorldStrides Customer Portal Registration
+            ❌ Customer Portal Registration Failed
 
-            Status      : FAILED
+            Status : FAILED
 
-            Execution   : GitHub Actions
-
-            The registration failed even after an automatic retry.
+            Registration did not complete successfully.
 
             Please review the GitHub Actions logs.
+
+            Screenshot attached.
 
             Regards,
             QA Automation Suite
 
-          attachments: screenshots/failure.png
+          attachments: |
+            screenshots/failure.png
+            credentials.txt

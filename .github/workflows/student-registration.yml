@@ -78,7 +78,11 @@ jobs:
 
           subject: "✅ Customer Portal Registration Success"
 
-          to: Amarteja.Chennu@infinite.com
+          to:
+            Amarteja.Chennu@infinite.com ,
+            Boddu.Chandankumar@infinite.com,
+            Chandu.Deeti@infinite.com
+
           from: ${{ secrets.GMAIL_USER }}
 
           body: |

@@ -54,6 +54,7 @@ public class StudentRegistrationTest extends BaseTest {
             agreement.Agreement();
             
             payment.payInFullWithBank();
+            Thread.sleep(7000);
 
             register.submitRegistration();
 
